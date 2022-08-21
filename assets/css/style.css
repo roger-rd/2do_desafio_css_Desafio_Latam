@@ -1,0 +1,90 @@
+html{
+    font-family: 'Roboto', sans-serif;
+}
+body{
+    margin: 10px;
+    background-color: #efefef;    
+}
+
+header{
+    color: rgba(10, 10, 150, 0.637);
+    height: 30em;
+    background-image: url(../imgs/inicial.jpg); 
+    background-size: cover;
+    background-position:center;
+    background-attachment: fixed;
+}
+
+header h1 {
+    margin: 10px;
+    text-align: center;
+    font-size: 40px;
+}
+
+header p{
+    font-size: 1.5em;
+    padding-top: 0px;
+    text-align: center;
+}
+
+.equipment{
+    width: 40%;
+    margin: 0px auto ;
+}
+
+.equipment  img{
+    transition: box-shadow 0.3s ease;
+    width: 300px;
+    margin: 20px;
+    padding: 0px;
+    border: solid 0.5px #ddd;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.equipment img:hover{
+    box-shadow: 0 0.1rem 0.4rem rgba(0,0,0,0.3);
+}
+
+.equipment a{
+    transition: color 0.03s ease;
+    text-decoration: none;
+    color: rgba(10, 10, 150, 0.637);
+    padding: 154px;
+}
+
+.equipment a:hover{
+    color: cornflowerblue;
+
+}
+
+.equipment p {
+    font-size: 1.5rem;
+    width: 171px;
+    margin: 0px;
+    padding: 0px;
+    text-align: justify;
+}
+
+footer{
+    background-color: rgb(165, 7, 126 ,0.30);
+    padding: 3rem;
+    color: black;
+}
+
+footer section{
+    float: right;
+    
+}
+footer a {
+    transition: color 0.3s ease;
+    color: blue;
+    text-decoration: none;
+    margin: 10px;
+}
+
+footer a:hover{
+    color: cornflowerblue;
+}
+
+
